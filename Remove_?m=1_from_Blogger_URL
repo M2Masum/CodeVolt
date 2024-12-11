@@ -1,0 +1,5 @@
+ <script>
+if (window.location.href.includes('?m=1')) {
+  window.history.replaceState({}, document.title, window.location.href.replace('?m=1', ''));
+}
+  </script>
